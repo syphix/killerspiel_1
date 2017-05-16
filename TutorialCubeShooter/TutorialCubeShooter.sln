@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorialCubeShooter", "Assembly-CSharp.csproj", "{C2C11908-25FF-660E-0226-3CB36599A756}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorialCubeShooter", "TutorialCubeShooter.csproj", "{EE3AFE32-0533-851F-BE8E-791BCB177D43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C2C11908-25FF-660E-0226-3CB36599A756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2C11908-25FF-660E-0226-3CB36599A756}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2C11908-25FF-660E-0226-3CB36599A756}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2C11908-25FF-660E-0226-3CB36599A756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE3AFE32-0533-851F-BE8E-791BCB177D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3AFE32-0533-851F-BE8E-791BCB177D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3AFE32-0533-851F-BE8E-791BCB177D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3AFE32-0533-851F-BE8E-791BCB177D43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
