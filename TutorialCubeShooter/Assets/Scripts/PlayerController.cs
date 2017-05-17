@@ -24,3 +24,5 @@ public class PlayerController : MonoBehaviour {
 		myRigidbody.MovePosition(myRigidbody.position + velocity * Time.fixedDeltaTime);
 	}
 }
+
+https://unity3d.com/de/learn/tutorials/topics/multiplayer-networking/networking-player-movement?playlist=29690

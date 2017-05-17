@@ -254,10 +254,10 @@ MonoBehaviour:
     y: 0
     width: 391
     height: 948
-  m_MinSize: {x: 277, y: 292}
-  m_MaxSize: {x: 4002, y: 8042}
+  m_MinSize: {x: 277, y: 271}
+  m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 114
+  controlID: 136
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,8 +276,8 @@ MonoBehaviour:
     y: 0
     width: 391
     height: 331
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -301,8 +301,8 @@ MonoBehaviour:
     y: 331
     width: 391
     height: 617
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -443,9 +443,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -8.761014, y: -6.2908874, z: -5.259653}
+    m_Target: {x: -9.029652, y: -5.9778194, z: -5.2631474}
     speed: 2
-    m_Value: {x: -8.761014, y: -6.2908874, z: -5.259653}
+    m_Value: {x: -9.029652, y: -5.9778194, z: -5.2631474}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -468,13 +468,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.13565241, y: 0.8513952, z: -0.2689738, w: -0.42939228}
+    m_Target: {x: -0.13476308, y: 0.85155255, z: -0.26621667, w: -0.43107513}
     speed: 2
-    m_Value: {x: -0.13565241, y: 0.8513952, z: -0.2689738, w: -0.42939228}
+    m_Value: {x: -0.13476309, y: 0.8515526, z: -0.2662167, w: -0.43107516}
   m_Size:
-    m_Target: 16.41949
+    m_Target: 63.6155
     speed: 2
-    m_Value: 16.41949
+    m_Value: 63.6155
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -539,9 +539,9 @@ MonoBehaviour:
     height: 310
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: aa260000
     m_LastClickedID: 0
-    m_ExpandedIDs: e24cffff984dffff724effffdefbffff00000000
+    m_ExpandedIDs: d4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -634,19 +634,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: E:\Unity\Projects\TutorialCubeShooter
+  m_LastProjectPath: C:\Users\felix.schulz\Desktop\killerspiel_1-master\TutorialCubeShooter
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4a250000
-    m_LastClickedID: 9546
-    m_ExpandedIDs: 00000000182500005825000000ca9a3bffffff7f
+    m_SelectedIDs: 9e250000
+    m_LastClickedID: 9630
+    m_ExpandedIDs: 0000000048250000ca25000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -674,7 +674,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001825000058250000
+    m_ExpandedIDs: 0000000048250000ca250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
