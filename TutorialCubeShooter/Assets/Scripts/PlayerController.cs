@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
+using UnityEngine.Networking;
 using System.Collections;
 
 [RequireComponent(typeof (Rigidbody))]
-public class PlayerController : MonoBehaviour {
+public class PlayerController : NetworkBehaviour {
 
 	Vector3 velocity;
 	Rigidbody myRigidbody;
@@ -10,7 +11,12 @@ public class PlayerController : MonoBehaviour {
 	void Start () {
 		myRigidbody = GetComponent<Rigidbody> ();
 	}
-	
+		
+	public override void OnStartLocalPlayer()
+	{
+		GetComponent<MeshRenderer>().material.color = Color.blue;
+	}
+
 	public void Move(Vector3 _velocity) {
 		velocity = _velocity;
 	}
@@ -25,4 +31,3 @@ public class PlayerController : MonoBehaviour {
 	}
 }
 
-https://unity3d.com/de/learn/tutorials/topics/multiplayer-networking/networking-player-movement?playlist=29690

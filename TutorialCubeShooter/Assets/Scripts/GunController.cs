@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
+using UnityEngine.Networking;
 using System.Collections;
 
-public class GunController : MonoBehaviour {
+public class GunController : NetworkBehaviour {
 
 	public Transform weaponHold;
 	public Gun startingGun;
@@ -21,7 +22,8 @@ public class GunController : MonoBehaviour {
 		equippedGun.transform.parent = weaponHold;
 	}
 
-	public void Shoot() {
+	[Command]
+	public void CmdShoot() {
 		if (equippedGun != null) {
 			equippedGun.Shoot ();
 		}

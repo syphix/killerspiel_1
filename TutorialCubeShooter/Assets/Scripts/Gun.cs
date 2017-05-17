@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Networking;
 using System.Collections;
 
 public class Gun : MonoBehaviour {
@@ -16,6 +17,7 @@ public class Gun : MonoBehaviour {
 			nextShotTime = Time.time + msBetweenShots / 1000;
 			Projectile newProjectile = Instantiate (projectile, muzzle.position, muzzle.rotation) as Projectile;
 			newProjectile.setSpeed (muzzleVelocity);
+			NetworkServer.Spawn (newProjectile.gameObject);
 		}
 	}
 }
