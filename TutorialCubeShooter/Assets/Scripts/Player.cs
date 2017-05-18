@@ -7,6 +7,7 @@ public class Player : LivingEntity {
 
 	public float moveSpeed = 5;
 	public float jumpSpeed = 500;
+	public float gravity;
 
 	float distToGround;
 
@@ -26,7 +27,7 @@ public class Player : LivingEntity {
 	void Update () {
 		if (!controller.isLocalPlayer) {
 			return;
-		}
+		} 
 
 		//Movement Input
 		Vector3 moveInput = new Vector3 (Input.GetAxisRaw ("Horizontal"), 0, Input.GetAxisRaw ("Vertical"));
@@ -37,6 +38,8 @@ public class Player : LivingEntity {
 			Debug.Log ("jump u prick");
 			GetComponent<Rigidbody> ().AddForce (new Vector3 (0, jumpSpeed, 0), ForceMode.Impulse);
 		}
+
+		GetComponent<Rigidbody> ().AddForce (Vector3.down * gravity);
 
 		//Look Input
 		Ray ray = viewCamera.ScreenPointToRay (Input.mousePosition);

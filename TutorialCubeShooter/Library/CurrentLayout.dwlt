@@ -257,7 +257,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 271}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 106
+  controlID: 114
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -438,14 +438,14 @@ MonoBehaviour:
     width: 828
     height: 521
   m_SceneLighting: 0
-  lastFramingTime: 645.8211306617934
+  lastFramingTime: 2150.267930241149
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.0671363, y: -1.3344746, z: -14.115513}
+    m_Target: {x: 1.7858996, y: -17.756504, z: 25.9082}
     speed: 2
-    m_Value: {x: -2.0671363, y: -1.3344746, z: -14.115513}
+    m_Value: {x: 1.7858996, y: -17.756504, z: 25.9082}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -468,13 +468,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.00069744367, y: 0.9986746, z: -0.04948383, w: -0.014140722}
+    m_Target: {x: -0.29659596, y: -0.047601484, z: 0.014799553, w: -0.9537012}
     speed: 2
-    m_Value: {x: -0.00069744367, y: 0.9986746, z: -0.04948383, w: -0.014140722}
+    m_Value: {x: -0.29659596, y: -0.047601484, z: 0.014799553, w: -0.9537012}
   m_Size:
-    m_Target: 18.350758
+    m_Target: 47.33451
     speed: 2
-    m_Value: 18.350758
+    m_Value: 47.33451
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -539,23 +539,23 @@ MonoBehaviour:
     height: 310
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b4250000
-    m_LastClickedID: 9652
-    m_ExpandedIDs: e0fbffff00000000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 9057ffffc8f7ffff80f8ffff54f9ffffe0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Canvas
+      m_OriginalName: Canvas
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -58940
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -634,18 +634,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Material
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Material
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\documents\Git\killerspiel1\killerspiel_1\TutorialCubeShooter
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0e250000
-    m_LastClickedID: 9486
+    m_SelectedIDs: e2240000
+    m_LastClickedID: 9442
     m_ExpandedIDs: 00000000e224000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -701,22 +701,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 36210000d81c00006a1c0000801c0000ec040000681c000000000000ee040000e604000060250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Obstacle
-      m_OriginalName: Obstacle
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 9482
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
