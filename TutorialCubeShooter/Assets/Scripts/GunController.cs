@@ -18,6 +18,7 @@ public class GunController : NetworkBehaviour {
 		if (equippedGun != null) {
 			Destroy (equippedGun.gameObject);
 		}		
+
 		equippedGun = Instantiate (gunToEquip, weaponHold.position, weaponHold.rotation) as Gun;
 		equippedGun.transform.parent = weaponHold;
 	}

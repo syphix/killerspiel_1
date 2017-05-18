@@ -6,6 +6,9 @@ using System.Collections;
 public class Player : LivingEntity {
 
 	public float moveSpeed = 5;
+	public float jumpSpeed = 500;
+
+	float distToGround;
 
 	Camera viewCamera;
 	PlayerController controller;
@@ -16,6 +19,8 @@ public class Player : LivingEntity {
 		controller = GetComponent<PlayerController> ();
 		gunController = GetComponent<GunController> ();
 		viewCamera = Camera.main;
+		distToGround = GetComponent<BoxCollider> ().bounds.extents.y;
+		Debug.Log (distToGround);
 	}
 	
 	void Update () {
@@ -27,6 +32,11 @@ public class Player : LivingEntity {
 		Vector3 moveInput = new Vector3 (Input.GetAxisRaw ("Horizontal"), 0, Input.GetAxisRaw ("Vertical"));
 		Vector3 moveVelocity = moveInput.normalized * moveSpeed;
 		controller.Move (moveVelocity);
+
+		if (Input.GetKeyDown (KeyCode.Space) && IsGrounded()) {
+			Debug.Log ("jump u prick");
+			GetComponent<Rigidbody> ().AddForce (new Vector3 (0, jumpSpeed, 0), ForceMode.Impulse);
+		}
 
 		//Look Input
 		Ray ray = viewCamera.ScreenPointToRay (Input.mousePosition);
@@ -43,5 +53,9 @@ public class Player : LivingEntity {
 		if (Input.GetMouseButton (0)) {
 			gunController.CmdShoot ();
 		}
+	}
+
+	bool IsGrounded () {
+		return Physics.Raycast (transform.position, Vector3.down, distToGround + 1);
 	}
 }

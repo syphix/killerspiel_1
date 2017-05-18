@@ -4,7 +4,7 @@ using System.Collections;
 public class Projectile : MonoBehaviour {
 
 	public float deathTime;
-	float speed = 10;
+	float speed = 15;
 	float damage = 1;
 
 	public void setSpeed (float newSpeed) {
