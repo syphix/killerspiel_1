@@ -19,6 +19,10 @@ public class Player : LivingEntity {
 	}
 	
 	void Update () {
+		if (!controller.isLocalPlayer) {
+			return;
+		}
+
 		//Movement Input
 		Vector3 moveInput = new Vector3 (Input.GetAxisRaw ("Horizontal"), 0, Input.GetAxisRaw ("Vertical"));
 		Vector3 moveVelocity = moveInput.normalized * moveSpeed;
@@ -37,7 +41,7 @@ public class Player : LivingEntity {
 
 		//Weapon Input
 		if (Input.GetMouseButton (0)) {
-			gunController.Shoot ();
+			gunController.CmdShoot ();
 		}
 	}
 }
