@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 [RequireComponent(typeof (PlayerController))]
 [RequireComponent(typeof (GunController))]
 public class Player : LivingEntity {
@@ -8,6 +9,7 @@ public class Player : LivingEntity {
 	public float moveSpeed = 5;
 	public float jumpSpeed = 500;
 	public float gravity;
+	public string abilityScript;
 
 	float distToGround;
 
@@ -22,6 +24,8 @@ public class Player : LivingEntity {
 		viewCamera = Camera.main;
 		distToGround = GetComponent<BoxCollider> ().bounds.extents.y;
 		Debug.Log (distToGround);
+
+		UnityEngineInternal.APIUpdaterRuntimeServices.AddComponent (gameObject, "Assets/Scripts/Player.cs (28,3)", abilityScript);
 	}
 	
 	void Update () {
